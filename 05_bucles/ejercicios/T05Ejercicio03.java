@@ -5,7 +5,7 @@
  */
 public class T05Ejercicio03 {
   public static void main(String[] args) {
-    int i = 1;
+    int i = 0;
     do {
       System.out.println(5*i);
       i++;

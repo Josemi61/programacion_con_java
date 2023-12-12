@@ -9,7 +9,7 @@ public class T05Ejercicio05 {
     int i = 320;
     while (i >=160) {
       System.out.println(i);
-      i = i -20;
+      i -= 20;
     }
   }
 }

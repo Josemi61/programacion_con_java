@@ -13,17 +13,16 @@ public class T05Ejercicio07 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int contra;
-    for (int i= 0; i <= 4; i++) {
+    for (int i= 1; i <= 4; i++) {
       System.out.print("Escribe una contraseña de 4 digitos: ");
       contra = sc.nextInt();
       if (contra == 4567) {
-        System.out.println("La caja fuerta de ha abierto satisfactoriamente");
+        System.out.println("La caja fuerta de ha abierto satisfactoriamente en el intento " + i);
         i = 5;
       }else{
-        System.out.println("Lo siento, esa no es la combinacion");
+        System.out.println("Lo siento, esa no es la combinacion te faltan " + (4-i) + " intentos");
       }
       }
     sc.close();
     }
-    
   }
