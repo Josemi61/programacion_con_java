@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:34 +0200] "GET /pasodecadena HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:39 +0200] "GET /animales HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:39 +0200] "GET /animales/ HTTP/1.1" 200 413 http-bio-8080-exec-3 962
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:46 +0200] "POST /animales/animales.jsp HTTP/1.1" 200 350 http-bio-8080-exec-6 128
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:46 +0200] "GET /animales/assets/img/caracol.jpg HTTP/1.1" 200 9716 http-bio-8080-exec-8 10
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:58 +0200] "POST /animales/animales.jsp HTTP/1.1" 200 424 http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:13:58 +0200] "GET /animales/assets/img/gato.jpg HTTP/1.1" 200 4601 http-bio-8080-exec-10 11
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:14:03 +0200] "POST /animales/animales.jsp HTTP/1.1" 200 166 http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:14:13 +0200] "POST /animales/animales.jsp HTTP/1.1" 200 4306 http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [19/Apr/2024:17:14:13 +0200] "GET /animales/assets/img/caracol.jpg HTTP/1.1" 304 - http-bio-8080-exec-4 6

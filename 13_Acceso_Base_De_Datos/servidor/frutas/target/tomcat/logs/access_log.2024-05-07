@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:14:48 +0200] "GET /frutas/assets/img/Kiwi.jpg HTTP/1.1" 404 1003 http-bio-8080-exec-1 55
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:14:53 +0200] "GET /frutas/index.jsp?fruta=1 HTTP/1.1" 200 367 http-bio-8080-exec-4 1245
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:14:53 +0200] "GET /frutas/assets/img/img_1.jpg HTTP/1.1" 200 59428 http-bio-8080-exec-6 10
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:14:59 +0200] "GET /frutas/index.jsp HTTP/1.1" 200 869 http-bio-8080-exec-8 16
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:15:02 +0200] "GET /frutas/index.jsp?fruta=4 HTTP/1.1" 200 371 http-bio-8080-exec-10 7
+0:0:0:0:0:0:0:1 - - [07/May/2024:17:15:02 +0200] "GET /frutas/assets/img/img_4.jpg HTTP/1.1" 200 206061 http-bio-8080-exec-10 6
